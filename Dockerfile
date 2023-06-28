@@ -1,7 +1,5 @@
 FROM node
 
-RUN apk add git
-
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copi>
 # where available (npm@5+)

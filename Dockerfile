@@ -2,6 +2,8 @@ FROM node:alpine
 
 RUN apk add git
 
+RUN sysctl fs.inotify.max_user_watches=582222 && sudo sysctl -p
+
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copi>
 # where available (npm@5+)

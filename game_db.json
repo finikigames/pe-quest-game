@@ -1,0 +1,115 @@
+{
+  "sessions": [
+    {
+      "id": "569679214:569679214",
+      "data": {
+        "antontidev": {
+          "state": {
+            "hesitant": true,
+            "enemy": "_The Great Evil_ (as you understand it)"
+          },
+          "currentId": "king:23"
+        }
+      }
+    },
+    {
+      "id": "487215063:487215063",
+      "data": {
+        "sugar7286": {
+          "state": {},
+          "currentId": "scifi:30"
+        }
+      }
+    },
+    {
+      "id": "1084922545:1084922545",
+      "data": {
+        "elenakirpicheva": {
+          "state": {},
+          "currentId": "scifi:29"
+        }
+      }
+    },
+    {
+      "id": "964601885:964601885",
+      "data": {
+        "zolotareva_yana": {
+          "state": {},
+          "currentId": "scifi:question:3"
+        }
+      }
+    },
+    {
+      "id": "700915584:700915584",
+      "data": {
+        "karypeaxh": {
+          "state": {},
+          "currentId": "scifi:5"
+        }
+      }
+    },
+    {
+      "id": "383869902:383869902",
+      "data": {
+        "Artem_Agarkovv": {
+          "state": {},
+          "currentId": "scifi:6"
+        }
+      }
+    },
+    {
+      "id": "512586319:512586319",
+      "data": {
+        "Irina_Kravchuk": {
+          "state": {},
+          "currentId": "intro:1"
+        }
+      }
+    },
+    {
+      "id": "475379383:475379383",
+      "data": {
+        "Abramkova": {
+          "state": {},
+          "currentId": "intro:10"
+        }
+      }
+    },
+    {
+      "id": "341960528:341960528",
+      "data": {
+        "Wiegon": {
+          "state": {},
+          "currentId": "scifi:13"
+        }
+      }
+    },
+    {
+      "id": "678270355:678270355",
+      "data": {
+        "Mitrik_22": {
+          "state": {},
+          "currentId": "king:13"
+        }
+      }
+    },
+    {
+      "id": "972480689:972480689",
+      "data": {
+        "NIKOLOSOKK": {
+          "state": {},
+          "currentId": "scifi:7"
+        }
+      }
+    },
+    {
+      "id": "728222753:728222753",
+      "data": {
+        "normaxyz": {
+          "state": {},
+          "currentId": "videos:2"
+        }
+      }
+    }
+  ]
+}

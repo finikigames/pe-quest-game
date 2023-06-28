@@ -69,6 +69,7 @@ loadGame(process.env.GAME_NAME).then((game) => {
     function transitionTo(transition: ITransition, user: IUser): Promise<IReply> {
         const targetCue = game.cues[transition.id];
 
+        if (user === undefined) return timeOutManager.promise(() => reply, 0);
         if (transition.setter) {
             user.state = applySetter(user, transition.setter);
         }
@@ -99,7 +100,7 @@ loadGame(process.env.GAME_NAME).then((game) => {
         
         if (transition) {
             // clear idle timeout
-            if (user.timeout) {
+            if (user !== undefined && user.timeout) {
                 timeOutManager.clear(user.timeout);
             }
 

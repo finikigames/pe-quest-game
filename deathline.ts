@@ -21,6 +21,10 @@ loadGame(process.env.GAME_NAME).then((game) => {
     const textRenderer = new TextRenderer(game);
     const mediaRenderer = new MediaRenderer(game);
     extendContext(bot, game, textRenderer, mediaRenderer);
+    
+    bot.catch((err) => {
+        console.log('Ooops', err)
+      })
 
     bot.command('/help', (ctx) => {
         //return ctx.deathline.help(ctx);
@@ -69,7 +73,7 @@ loadGame(process.env.GAME_NAME).then((game) => {
     function transitionTo(transition: ITransition, user: IUser): Promise<IReply> {
         const targetCue = game.cues[transition.id];
 
-        if (user === undefined) return timeOutManager.promise(() => reply, 0);
+        if (user === undefined) return Promise.reject("Cant");
         if (transition.setter) {
             user.state = applySetter(user, transition.setter);
         }

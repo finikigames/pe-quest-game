@@ -57,6 +57,7 @@ declare class Telegraf {
     public action(msg: string | RegExp, handler: IHandler<IContextUpdate>): void;
     public startPolling(): void;
     public use(...middlware: Function[]): void;
+    public catch(erro: (err: any) => void): void;
     public context: any;
 }
 

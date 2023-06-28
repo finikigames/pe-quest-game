@@ -2,7 +2,7 @@
     "title": "Test game",
     "description": "This is test deathline game. Use /restart to restart game from scratch.",
     "settings": {
-        "markdown": true,
+        "markdown": false,
         "templateSettings": {}
     },
     "state": {

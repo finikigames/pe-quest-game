@@ -114,7 +114,7 @@
             ]
         },
         "videos:video:1": {
-            "text": "Операционный офис и финансовая служба",
+            "text": "",
             "choices": [
                 {
                     "label": "Отдел Аналитики", "id": "videos:video:2"
@@ -123,7 +123,7 @@
             "video": "videos/OperationOfficeAndFinancialService.mp4"
         },
         "videos:video:2": {
-            "text": "Отдел Аналитики",
+            "text": "",
             "choices": [
                 {
                     "label": "Проектный офис", "id": "videos:video:3"
@@ -132,7 +132,7 @@
             "video": "videos/DepartmentAnalytics.mp4"
         },
         "videos:video:3": {
-            "text": "Проектный офис",
+            "text": "",
             "choices": [
                 {
                     "label": "Команда тестирования", "id": "videos:video:4"
@@ -141,7 +141,7 @@
             "video": "videos/ProjectOffice.mp4"
         },
         "videos:video:4": {
-            "text": "Команда тестирования",
+            "text": "",
             "choices": [
                 {
                     "label": "Директорат", "id": "videos:video:5"
@@ -150,7 +150,7 @@
             "video": "videos/TeamQA.mp4"
         },
         "videos:video:5": {
-            "text": "Директорат",
+            "text": "",
             "choices": [
                 {
                     "label": "ЕСТС", "id": "videos:video:6"
@@ -159,7 +159,7 @@
             "video": "videos/Chiefs.mp4"
         },
         "videos:video:6": {
-            "text": "ЕСТС",
+            "text": "",
             "choices": [
                 {
                     "label": "Finiki", "id": "videos:video:7"
@@ -168,7 +168,7 @@
             "video": "videos/ЕСТС.mp4"
         },
         "videos:video:7": {
-            "text": "Finiki",
+            "text": "",
             "choices": [
                 {
                     "label": "Backend-разработчики", "id": "videos:video:8"
@@ -177,25 +177,25 @@
             "video": "videos/Finiki.mp4"
         },
         "videos:video:8": {
-            "text": "Backend-разработчики",
+            "text": "",
             "choices": [
                 {
-                    "label": "Никулина", "id": "videos:video:9"
+                    "label": "Юлия Никулина", "id": "videos:video:9"
                 }
             ],
             "video": "videos/BackendDevelopers.mp4"
         },
         "videos:video:9": {
-            "text": "Никулина",
+            "text": "",
             "choices": [
                 {
-                    "label": "Подшивалов", "id": "videos:video:10"
+                    "label": "Александр Подшивалов", "id": "videos:video:10"
                 }
             ],
             "video": "videos/Nikulina.mp4"
         },
         "videos:video:10": {
-            "text": "Подшивалов",
+            "text": "",
             "choices": [
                 {
                     "label": "...", "id": "videos:3"

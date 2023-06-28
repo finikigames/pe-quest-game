@@ -5,5 +5,5 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      - BOT_TOKEN=${TOKEN}
+      - BOT_TOKEN=${BOT_TOKEN}
       - GAME_NAME=${GAME_NAME}

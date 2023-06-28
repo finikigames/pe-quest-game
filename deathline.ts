@@ -11,7 +11,6 @@ import { createUser } from './lib/createUser';
 import { cuePrefix } from './lib/constants';
 import { applySetter } from './lib/applySetter';
 import { extendContext, TContext } from './lib/extendContext';
-var fs = require('fs');
 
 dotenv.config();
 
